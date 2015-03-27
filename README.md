@@ -18,7 +18,7 @@ Drupal settings.
 
 ```
 	drupal:
-		sitename: '[name of the site]Õ
+		sitename: '[name of the site]'
 		dbhost: '[database host e.g. 127.0.0.1]'
 		dbport: '[database port e.g. 3306]'
 		dbuser: '[database username]'
