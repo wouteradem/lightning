@@ -46,7 +46,7 @@ Test command(s) to run.
 
 ```
 test:
-	drush:
+	drupal:
 		features: brun
 ```
 
@@ -75,7 +75,7 @@ setup:
         - "drush -y pm-enable behatrunner"
 
 test:
-  drush:
+  drupal:
     features: brun
 
 complete:

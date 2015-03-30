@@ -20,7 +20,7 @@ setup:
         - "drush -y pm-enable behatrunner"
 
 test:
-  drush:
+  drupal:
     features: brun
 
 complete:
