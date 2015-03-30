@@ -10,7 +10,7 @@ build_settings:
         dbuser: 'drupal'
         dbpass: '12345678'
         dbname: 'lightning'
-        profile: 'standard'
+        profile: 'lightning'
         mail: 'wouter.adem@gmail.com'
 
 setup:
