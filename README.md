@@ -37,7 +37,7 @@ Drush commands to run before tests.
 ```
 setup:
 	drupal:
-			- Òdrush -y pm-enable behatrunnerÓ
+			- "drush -y pm-enable behatrunner"
 ```
 
 #### Test

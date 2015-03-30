@@ -3,10 +3,21 @@ build_settings:
         host: 'localhost'
         user: 'drupal'
         pass: '12345678'
+    drupal:
+        sitename: 'Lightning'
+        dbhost: '127.0.0.1'
+        dbport: '3306'
+        dbuser: 'drupal'
+        dbpass: '12345678'
+        dbname: 'lightning'
+        profile: 'standard'
+        mail: 'wouter.adem@gmail.com'
 
 setup:
     mysql:
         - "CREATE DATABASE lightning;"
+    drupal:
+        - "drush -y pm-enable behatrunner"
 
 test:
   drush:
