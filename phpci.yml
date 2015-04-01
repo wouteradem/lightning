@@ -10,7 +10,7 @@ build_settings:
         dbuser: 'drupal'
         dbpass: '12345678'
         dbname: 'lightning'
-        profile: 'lightning'
+        profile: 'standard'
         mail: 'wouter.adem@gmail.com'
 
 setup:
@@ -22,6 +22,12 @@ setup:
 test:
   drupal:
     features: brun
+  hipchat_notify:
+    authToken: fd074839353dc7339343a58fe875dd
+    room: 1316696
+    message: <b>%PROJECT_TITLE%</b> - build <a href="%BUILD_URI%">%BUILD%</a> test!
+    color: red
+    notify: true
 
 complete:
     mysql:
