@@ -23,7 +23,7 @@ test:
   drupal:
     features: brun
   hipchat_notify:
-    authToken: f9XWZ7BSxNRc4zXUQDQMRF3D0ehZ1h5IM3cepQ8P
+    authToken: 1f04d6316c0e626b798665717ceb6d
     room: 1316696
     message: <b>%PROJECT_TITLE%</b> - build <a href="%BUILD_URI%">%BUILD%</a> test!
     color: red
